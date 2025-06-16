@@ -27,7 +27,7 @@ export const Hero = () => {
             MSc Clinical Psychology • Diploma in Arts Based Therapy
           </p>
           <p className="text-base text-gray-500 mb-8 max-w-3xl mx-auto">
-            B.A Psychology (Hons)
+            B.A Psychology
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
