@@ -1,11 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const Booking = () => {
   const handleCalendlyClick = () => {
-    // Replace with your actual Calendly URL
-    window.open('https://calendly.com/charmi-shah', '_blank');
+    window.open('https://calendly.com/shahcharmi7745/45min', '_blank');
   };
 
   return (
@@ -16,7 +14,7 @@ export const Booking = () => {
             Book Your Session
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ready to start your journey? Schedule a session that works for your schedule
+            Ready to start your journey? Schedule a 45-minute session that works for your schedule
           </p>
         </div>
         
@@ -27,14 +25,14 @@ export const Booking = () => {
           <CardContent className="text-center">
             <div className="mb-6">
               <p className="text-gray-600 mb-4">
-                Click below to view available time slots and book your session through Calendly
+                Click below to view available time slots and book your 45-minute session through Calendly
               </p>
               <Button 
                 onClick={handleCalendlyClick}
                 size="lg"
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
               >
-                📅 Book on Calendly
+                📅 Book 45min Session
               </Button>
             </div>
             

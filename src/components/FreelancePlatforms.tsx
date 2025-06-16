@@ -5,31 +5,31 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export const FreelancePlatforms = () => {
   const platforms = [
     {
-      name: "Psychology Today",
-      description: "Find me on Psychology Today directory",
-      url: "https://www.psychologytoday.com",
+      name: "TherapyMantra",
+      description: "Book sessions through TherapyMantra platform",
+      url: "https://therapists.therapymantra.co/list/therapist/68309/charmi-shah",
       icon: "🧠",
       color: "from-blue-50 to-blue-100"
     },
     {
-      name: "BetterHelp",
-      description: "Book sessions through BetterHelp platform",
-      url: "https://www.betterhelp.com",
+      name: "Felicity.care",
+      description: "Connect with me on Felicity Care",
+      url: "https://felicity.care/community-talk-therapists-detail/640c249a72ee871815ff166f",
       icon: "💚",
       color: "from-green-50 to-green-100"
     },
     {
-      name: "Talkspace",
-      description: "Connect with me on Talkspace",
-      url: "https://www.talkspace.com",
-      icon: "💬",
+      name: "Psychology Today",
+      description: "Find me on Psychology Today directory",
+      url: "https://www.psychologytoday.com",
+      icon: "📋",
       color: "from-purple-50 to-purple-100"
     },
     {
-      name: "TherapyDen",
-      description: "View my profile on TherapyDen",
-      url: "https://www.therapyden.com",
-      icon: "🌱",
+      name: "Direct Booking",
+      description: "Book directly through my Calendly",
+      url: "https://calendly.com/shahcharmi7745/45min",
+      icon: "📅",
       color: "from-teal-50 to-teal-100"
     }
   ];
@@ -43,10 +43,10 @@ export const FreelancePlatforms = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Find Me on Other Platforms
+            Book Through Multiple Platforms
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            I'm also available on various therapy platforms for your convenience
+            Choose your preferred platform to book sessions - I'm available across various therapy platforms for your convenience
           </p>
         </div>
         
@@ -75,10 +75,10 @@ export const FreelancePlatforms = () => {
         <div className="mt-8 text-center">
           <Card className="bg-gradient-to-r from-blue-50 to-green-50 border-0 shadow-lg max-w-2xl mx-auto">
             <CardContent className="p-6">
-              <h3 className="font-semibold text-lg mb-2">Why Multiple Platforms?</h3>
+              <h3 className="font-semibold text-lg mb-2">Multiple Booking Options</h3>
               <p className="text-gray-600">
                 I believe in making therapy accessible through various channels. Choose the platform 
-                that works best for your needs, schedule, and preferences.
+                that works best for your needs, schedule, and preferences. All platforms offer the same quality care.
               </p>
             </CardContent>
           </Card>

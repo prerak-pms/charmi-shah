@@ -7,8 +7,12 @@ export const Hero = () => {
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-200 to-green-200 flex items-center justify-center text-4xl font-bold text-blue-800">
-            CS
+          <div className="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden shadow-xl">
+            <img 
+              src="/lovable-uploads/d709e43c-fe94-47e3-a3d1-0719d0762a83.png" 
+              alt="Charmi Shah"
+              className="w-full h-full object-cover"
+            />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
             Charmi Shah
@@ -17,7 +21,7 @@ export const Hero = () => {
             Psychologist & Arts Based Therapy Practitioner
           </p>
           <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-            MSc Clinical Psychology • Helping individuals through personalized therapy sessions 
+            MSc Clinical Psychology • Diploma in Arts Based Therapy • Helping individuals through personalized therapy sessions 
             and creative healing approaches
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -4,15 +4,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const Contact = () => {
   const handlePhoneClick = () => {
-    window.open('tel:+919876543210', '_self');
+    window.open('tel:+919769397745', '_self');
   };
 
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/919876543210', '_blank');
+    window.open('https://wa.me/919769397745', '_blank');
   };
 
   const handleEmailClick = () => {
-    window.open('mailto:charmi.shah@email.com', '_self');
+    window.open('mailto:shahcharmi7745@gmail.com', '_self');
   };
 
   return (
@@ -39,7 +39,7 @@ export const Contact = () => {
                 onClick={handlePhoneClick}
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white"
               >
-                +91 98765 43210
+                +91 97693 97745
               </Button>
             </CardContent>
           </Card>

@@ -21,37 +21,39 @@ export const Payment = () => {
             </CardHeader>
             <CardContent className="text-center">
               <div className="mb-4">
-                <div className="w-48 h-48 bg-white rounded-lg shadow-lg mx-auto flex items-center justify-center mb-4">
-                  {/* QR Code placeholder - replace with your actual QR code */}
-                  <div className="text-6xl">📱</div>
+                <div className="w-64 h-64 bg-white rounded-lg shadow-lg mx-auto flex items-center justify-center mb-4 overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/cc6b6f00-68eb-47ac-9d4a-354db2f0f614.png" 
+                    alt="UPI QR Code"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <p className="text-gray-600 mb-2">Scan QR code to pay via UPI</p>
-                <p className="font-medium text-blue-700">charmishah@upi</p>
+                <p className="font-medium text-blue-700">9769397745@ptyes</p>
               </div>
             </CardContent>
           </Card>
           
           <Card className="bg-gradient-to-br from-green-50 to-blue-50 border-0 shadow-xl">
             <CardHeader className="text-center">
-              <CardTitle className="text-xl text-gray-900">Bank Transfer</CardTitle>
+              <CardTitle className="text-xl text-gray-900">Payment Methods</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="space-y-3">
-                <div className="bg-white/70 p-3 rounded-lg">
-                  <p className="text-sm text-gray-600">Account Name</p>
-                  <p className="font-medium">Charmi Shah</p>
+              <div className="space-y-4">
+                <div className="bg-white/70 p-4 rounded-lg">
+                  <h4 className="font-medium text-green-700 mb-2">Accepted Methods</h4>
+                  <ul className="text-gray-600 space-y-1">
+                    <li>• UPI Payment (Preferred)</li>
+                    <li>• Bank Transfer</li>
+                    <li>• Digital Wallets</li>
+                    <li>• Online Payment Gateways</li>
+                  </ul>
                 </div>
-                <div className="bg-white/70 p-3 rounded-lg">
-                  <p className="text-sm text-gray-600">Account Number</p>
-                  <p className="font-medium">XXXX-XXXX-XXXX</p>
-                </div>
-                <div className="bg-white/70 p-3 rounded-lg">
-                  <p className="text-sm text-gray-600">IFSC Code</p>
-                  <p className="font-medium">XXXX0000XXX</p>
-                </div>
-                <div className="bg-white/70 p-3 rounded-lg">
-                  <p className="text-sm text-gray-600">Bank Name</p>
-                  <p className="font-medium">Your Bank Name</p>
+                <div className="bg-white/70 p-4 rounded-lg">
+                  <h4 className="font-medium text-blue-700 mb-2">Quick Payment</h4>
+                  <p className="text-gray-600 text-sm">
+                    For fastest confirmation, use UPI with the QR code or send to: <span className="font-medium">9769397745@ptyes</span>
+                  </p>
                 </div>
               </div>
             </CardContent>
