@@ -17,12 +17,12 @@ export const Rates = () => {
     },
     {
       type: "5-Session Package",
-      duration: "60 minutes",
+      duration: "60 minutes each",
       price: "₹3,500",
       description: "Assessment and treatment planning"
     },
     {
-      type: "Arts-Based Therapy (Offline)",
+      type: "Arts-Based Therapy Session (Offline)",
       duration: "60 minutes",
       price: "₹2,000",
       description: "Creative therapy with art materials included (Bangalore Only)"
