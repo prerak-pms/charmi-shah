@@ -12,9 +12,9 @@ export const TherapeuticExpertise = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 text-center">
             {[
               "Cognitive Behavioural Therapy (CBT)", "Dialectical Behavioural Therapy (DBT)", 
-              "Rational Emotive Behavioural Therapy (REBT)", "Client Centred", "Art Therapy", 
-              "Music Therapy", "Mindfulness Based Therapies", "Play and Art therapy for kids", 
-              "Behavioural modification for kids"
+              "Rational Emotive Behavioural Therapy (REBT)", "Client Centred", 
+              "Music Therapy", "Mindfulness Based Therapies", "Play and Art therapy", 
+              "Behavioural modification for kids", "Eclectic Therapy"
             ].map((therapy, index) => (
               <div key={index} className="bg-green-50 px-3 py-2 rounded-full text-sm text-green-800 font-medium">
                 {therapy}
