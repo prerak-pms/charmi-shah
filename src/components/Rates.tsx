@@ -5,27 +5,27 @@ export const Rates = () => {
   const rates = [
     {
       type: "Individual Session",
-      duration: "50 minutes",
-      price: "₹2,500",
+      duration: "60 minutes",
+      price: "₹1,000",
       description: "One-on-one therapy session"
     },
     {
-      type: "Arts-Based Therapy",
-      duration: "60 minutes",
-      price: "₹3,000",
-      description: "Creative therapy with art materials included"
-    },
-    {
-      type: "Online Session",
-      duration: "50 minutes",
-      price: "₹2,000",
+      type: "3-Session Package",
+      duration: "60 minutes each",
+      price: "₹2,550",
       description: "Virtual therapy session"
     },
     {
-      type: "Initial Consultation",
-      duration: "30 minutes",
-      price: "₹1,500",
+      type: "5-Session Package",
+      duration: "60 minutes",
+      price: "₹3,500",
       description: "Assessment and treatment planning"
+    },
+    {
+      type: "Arts-Based Therapy (Offline)",
+      duration: "60 minutes",
+      price: "₹2,000",
+      description: "Creative therapy with art materials included (Bangalore Only)"
     }
   ];
 
