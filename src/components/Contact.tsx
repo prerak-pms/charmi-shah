@@ -34,14 +34,13 @@ export const Contact = () => {
               <CardTitle className="text-lg text-gray-900">Phone</CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-gray-600 mb-4">Connect via WhatsApp for immediate support</p>
+              <p className="text-gray-600 mb-4">Connect via Call for immediate support</p>
               <Button 
                 onClick={handlePhoneClick}
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white"
               >
                 +91 97693 97745
-              </Button>
-            </CardContent>
+              </CardContent>
           </Card>
           
           <Card className="bg-gradient-to-br from-green-50 to-green-100 border-0 shadow-lg hover:shadow-xl transition-all duration-300">
