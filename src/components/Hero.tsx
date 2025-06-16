@@ -24,11 +24,10 @@ export const Hero = () => {
             Psychologist & Arts Based Therapy Practitioner
           </p>
           <p className="text-lg text-gray-600 mb-4 max-w-3xl mx-auto">
-            MSc Clinical Psychology • Diploma in Arts Based Therapy • Diploma in Clinical & Health Psychology
+            MSc Clinical Psychology • Diploma in Arts Based Therapy
           </p>
           <p className="text-base text-gray-500 mb-8 max-w-3xl mx-auto">
-            B.A Psychology (Hons) • Certificate in Play Therapy • Certificate in Art Therapy • 
-            Certificate in Cognitive Rehabilitation
+            B.A Psychology (Hons)
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
