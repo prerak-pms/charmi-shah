@@ -6,25 +6,25 @@ export const Rates = () => {
     {
       type: "Individual Session",
       duration: "60 minutes",
-      price: "₹1,000",
+      price: "₹800",
       description: "One-on-one therapy session"
     },
     {
       type: "3-Session Package",
       duration: "60 minutes each",
-      price: "₹2,550",
+      price: "₹2,000",
       description: "Virtual therapy session"
     },
     {
       type: "5-Session Package",
       duration: "60 minutes each",
-      price: "₹3,500",
+      price: "₹2,750",
       description: "Assessment and treatment planning"
     },
     {
       type: "Arts-Based Therapy Session (Offline)",
       duration: "60 minutes",
-      price: "₹2,000",
+      price: "₹1,500",
       description: "Creative therapy with art materials included (Bangalore Only)"
     }
   ];
