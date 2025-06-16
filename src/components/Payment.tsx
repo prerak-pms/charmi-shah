@@ -46,8 +46,7 @@ export const Payment = () => {
                     <li>• UPI Payment (Preferred)</li>
                     <li>• Bank Transfer</li>
                     <li>• Digital Wallets</li>
-                    <li>• Online Payment Gateways</li>
-                  </ul>
+                   </ul>
                 </div>
                 <div className="bg-white/70 p-4 rounded-lg">
                   <h4 className="font-medium text-blue-700 mb-2">Quick Payment</h4>
@@ -66,8 +65,8 @@ export const Payment = () => {
               <h3 className="font-semibold text-lg mb-2">Payment Instructions</h3>
               <div className="text-left space-y-2 text-gray-600">
                 <p>• Payment is required 24 hours before the session</p>
-                <p>• Send payment confirmation via WhatsApp or email</p>
-                <p>• Cancellations require 48 hours notice for full refund</p>
+                <p>• Send payment confirmation via WhatsApp or Email</p>
+                <p>• Cancellations require 12 hours notice for full refund</p>
                 <p>• Emergency sessions can be paid immediately after booking</p>
               </div>
             </CardContent>
