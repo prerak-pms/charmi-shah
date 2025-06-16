@@ -61,7 +61,7 @@ export const Rates = () => {
             <CardContent className="p-6">
               <h3 className="font-semibold text-lg mb-2">Payment Options</h3>
               <p className="text-gray-600 mb-4">
-                • Bank Transfer • UPI • Credit/Debit Cards • Cash (In-person sessions)
+                • Bank Transfer • UPI • Cash (In-person sessions)
               </p>
               <p className="text-sm text-gray-500">
                 Sliding scale rates available for students and those facing financial hardship
