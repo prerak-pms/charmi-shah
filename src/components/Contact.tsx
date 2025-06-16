@@ -36,7 +36,7 @@ export const Contact = () => {
             <CardContent className="text-center">
               <p className="text-gray-600 mb-4">Connect via Call for immediate support</p>
               <Button 
-                onClick={handlePhoneClick}
+                //onClick={handlePhoneClick}
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white"
               >
                 +91 97693 97745
