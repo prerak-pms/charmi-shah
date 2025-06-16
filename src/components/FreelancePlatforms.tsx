@@ -19,10 +19,10 @@ export const FreelancePlatforms = () => {
       color: "from-green-50 to-green-100"
     },
     {
-      name: "Psychology Today",
-      description: "Find me on Psychology Today directory",
-      url: "https://www.psychologytoday.com",
-      icon: "📋",
+      name: "Click2Pro",
+      description: "Find me on Click2Pro directory",
+      url: "https://click2pro.com/psychologists/compassionate-and-understanding-psychologist-Charmi-Shah-516",
+      icon: "🔗",
       color: "from-purple-50 to-purple-100"
     },
     {

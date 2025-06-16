@@ -3,6 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
 export const Hero = () => {
+  const handleContactClick = () => {
+    window.open('https://wa.me/919769397745', '_blank');
+  };
+
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
@@ -20,9 +24,12 @@ export const Hero = () => {
           <p className="text-xl md:text-2xl text-blue-700 mb-4">
             Psychologist & Arts Based Therapy Practitioner
           </p>
-          <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-            MSc Clinical Psychology • Diploma in Arts Based Therapy • Helping individuals through personalized therapy sessions 
-            and creative healing approaches
+          <p className="text-lg text-gray-600 mb-4 max-w-3xl mx-auto">
+            MSc Clinical Psychology • Diploma in Arts Based Therapy • Diploma in Clinical & Health Psychology
+          </p>
+          <p className="text-base text-gray-500 mb-8 max-w-3xl mx-auto">
+            B.A Psychology (Hons) • Certificate in Play Therapy • Certificate in Art Therapy • 
+            Certificate in Cognitive Rehabilitation
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -36,36 +43,50 @@ export const Hero = () => {
               variant="outline" 
               size="lg"
               className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-full transition-all duration-300"
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={handleContactClick}
             >
               Contact Me
             </Button>
           </div>
         </div>
         
+        {/* Specializations Section */}
+        <Card className="p-8 bg-white/80 backdrop-blur-sm border-0 shadow-xl mb-8">
+          <div className="text-center mb-6">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">My Specializations</h3>
+          </div>
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-3 text-center">
+            {[
+              "Anxiety", "Stress", "Depression", "Relationship Issues", "Couple Counseling", 
+              "Sexual Issues", "Suicidal Ideation", "Sleep Issues", "Cognitive Rehabilitation", 
+              "ADHD (Adult)", "Autism Spectrum Disorders", "Family Therapy", "Self-harm", 
+              "Self Confidence", "Pain Management", "Psycho-Somatic Disorders", "Body Image", 
+              "Anger", "Child Counseling", "Geriatric Issues", "Eating Disorders", 
+              "Marital Discord", "Mood Disorder"
+            ].map((specialization, index) => (
+              <div key={index} className="bg-blue-50 px-3 py-2 rounded-full text-sm text-blue-800 font-medium">
+                {specialization}
+              </div>
+            ))}
+          </div>
+        </Card>
+
+        {/* Therapeutic Expertise Section */}
         <Card className="p-8 bg-white/80 backdrop-blur-sm border-0 shadow-xl">
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                <span className="text-2xl">🎨</span>
+          <div className="text-center mb-6">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Therapeutic Expertise</h3>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 text-center">
+            {[
+              "Cognitive Behavioural Therapy (CBT)", "Dialectical Behavioural Therapy (DBT)", 
+              "Rational Emotive Behavioural Therapy (REBT)", "Client Centred", "Art Therapy", 
+              "Music Therapy", "Mindfulness Based Therapies", "Play and Art therapy for kids", 
+              "Behavioural modification for kids"
+            ].map((therapy, index) => (
+              <div key={index} className="bg-green-50 px-3 py-2 rounded-full text-sm text-green-800 font-medium">
+                {therapy}
               </div>
-              <h3 className="font-semibold text-lg mb-2">Arts-Based Therapy</h3>
-              <p className="text-gray-600">Creative healing through artistic expression</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
-                <span className="text-2xl">🧠</span>
-              </div>
-              <h3 className="font-semibold text-lg mb-2">Clinical Psychology</h3>
-              <p className="text-gray-600">Evidence-based therapeutic approaches</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
-                <span className="text-2xl">💬</span>
-              </div>
-              <h3 className="font-semibold text-lg mb-2">Personalized Care</h3>
-              <p className="text-gray-600">Tailored sessions for your unique needs</p>
-            </div>
+            ))}
           </div>
         </Card>
       </div>

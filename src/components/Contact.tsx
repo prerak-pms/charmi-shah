@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const Contact = () => {
   const handlePhoneClick = () => {
-    window.open('tel:+919769397745', '_self');
+    window.open('https://wa.me/919769397745', '_blank');
   };
 
   const handleWhatsAppClick = () => {
@@ -12,7 +12,7 @@ export const Contact = () => {
   };
 
   const handleEmailClick = () => {
-    window.open('mailto:shahcharmi7745@gmail.com', '_self');
+    window.open('https://wa.me/919769397745', '_blank');
   };
 
   return (
@@ -23,7 +23,7 @@ export const Contact = () => {
             Get in Touch
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ready to start your healing journey? Reach out to me directly
+            Ready to start your healing journey? Reach out to me directly via WhatsApp
           </p>
         </div>
         
@@ -34,7 +34,7 @@ export const Contact = () => {
               <CardTitle className="text-lg text-gray-900">Phone</CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-gray-600 mb-4">Call me directly for immediate support</p>
+              <p className="text-gray-600 mb-4">Connect via WhatsApp for immediate support</p>
               <Button 
                 onClick={handlePhoneClick}
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white"
@@ -63,15 +63,15 @@ export const Contact = () => {
           <Card className="bg-gradient-to-br from-purple-50 to-purple-100 border-0 shadow-lg hover:shadow-xl transition-all duration-300">
             <CardHeader className="text-center">
               <div className="text-4xl mb-2">✉️</div>
-              <CardTitle className="text-lg text-gray-900">Email</CardTitle>
+              <CardTitle className="text-lg text-gray-900">Quick Contact</CardTitle>
             </CardHeader>
             <CardContent className="text-center">
-              <p className="text-gray-600 mb-4">Send me an email</p>
+              <p className="text-gray-600 mb-4">Connect instantly via WhatsApp</p>
               <Button 
                 onClick={handleEmailClick}
                 className="w-full bg-purple-600 hover:bg-purple-700 text-white"
               >
-                Send Email
+                Contact via WhatsApp
               </Button>
             </CardContent>
           </Card>
