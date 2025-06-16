@@ -13,10 +13,8 @@ export const Specializations = () => {
             {[
               "Anxiety", "Stress", "Depression", "Relationship Issues", "Couple Counseling", 
               "Sexual Issues", "Suicidal Ideation", "Sleep Issues", "Cognitive Rehabilitation", 
-              "ADHD (Adult)", "Autism Spectrum Disorders", "Family Therapy", "Self-harm", 
-              "Self Confidence", "Pain Management", "Psycho-Somatic Disorders", "Body Image", 
-              "Anger", "Child Counseling", "Geriatric Issues", "Eating Disorders", 
-              "Marital Discord", "Mood Disorder"
+              "ADHD", "Family Therapy", "Self-harm", "Self Confidence", "Pain Management", "Psycho-Somatic Disorders",  
+              "Body Image", "Anger", "Child Counseling", "Eating Disorders"
             ].map((specialization, index) => (
               <div key={index} className="bg-blue-50 px-3 py-2 rounded-full text-sm text-blue-800 font-medium">
                 {specialization}
