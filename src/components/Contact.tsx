@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -28,7 +27,7 @@ export const Contact = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-3 gap-6">
           <Card className="bg-gradient-to-br from-blue-50 to-blue-100 border-0 shadow-lg hover:shadow-xl transition-all duration-300">
             <CardHeader className="text-center">
               <div className="text-4xl mb-2">📞</div>
@@ -70,22 +69,6 @@ export const Contact = () => {
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white"
               >
                 Connect on LinkedIn
-              </Button>
-            </CardContent>
-          </Card>
-          
-          <Card className="bg-gradient-to-br from-purple-50 to-purple-100 border-0 shadow-lg hover:shadow-xl transition-all duration-300">
-            <CardHeader className="text-center">
-              <div className="text-4xl mb-2">✉️</div>
-              <CardTitle className="text-lg text-gray-900">Quick Contact</CardTitle>
-            </CardHeader>
-            <CardContent className="text-center">
-              <p className="text-gray-600 mb-4">Connect instantly via WhatsApp</p>
-              <Button 
-                onClick={handleEmailClick}
-                className="w-full bg-purple-600 hover:bg-purple-700 text-white"
-              >
-                Contact via WhatsApp
               </Button>
             </CardContent>
           </Card>
