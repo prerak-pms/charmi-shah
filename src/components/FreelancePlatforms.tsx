@@ -5,6 +5,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export const FreelancePlatforms = () => {
   const platforms = [
     {
+      name: "Direct Booking",
+      description: "Book directly through my Calendly",
+      url: "https://calendly.com/shahcharmi7745/45min",
+      icon: "📅",
+      color: "from-teal-50 to-teal-100"
+    },
+    {
       name: "TherapyMantra",
       description: "Book sessions through TherapyMantra platform",
       url: "https://therapists.therapymantra.co/list/therapist/68309/charmi-shah",
@@ -24,13 +31,6 @@ export const FreelancePlatforms = () => {
       url: "https://click2pro.com/psychologists/compassionate-and-understanding-psychologist-Charmi-Shah-516",
       icon: "🔗",
       color: "from-purple-50 to-purple-100"
-    },
-    {
-      name: "Direct Booking",
-      description: "Book directly through my Calendly",
-      url: "https://calendly.com/shahcharmi7745/45min",
-      icon: "📅",
-      color: "from-teal-50 to-teal-100"
     }
   ];
 

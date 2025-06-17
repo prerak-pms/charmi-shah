@@ -11,9 +11,9 @@ export const Specializations = () => {
           </div>
           <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-3 text-center">
             {[
-              "Anxiety", "Stress", "Depression", "Relationship Issues", "Couple Counseling", 
+              "Anxiety", "Stress", "Depression", "Family & Relationship Therapy", "Couple Counseling", 
               "Sexual Issues", "Suicidal Ideation", "Sleep Issues", "Cognitive Rehabilitation", 
-              "ADHD", "Family Therapy", "Self-harm", "Self Confidence", "Pain Management", "Psycho-Somatic Disorders",  
+              "ADHD", "Self-harm", "Self Confidence", "Pain Management", "Psycho-Somatic Disorders",  
               "Body Image", "Anger", "Child Counseling", "Eating Disorders"
             ].map((specialization, index) => (
               <div key={index} className="bg-blue-50 px-3 py-2 rounded-full text-sm text-blue-800 font-medium">

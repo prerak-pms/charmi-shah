@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const Contact = () => {
-  const handlePhoneClick = () => {
-    window.open('tel:+919769397745', '_self');
-  };
-
   const handleWhatsAppClick = () => {
     window.open('https://wa.me/919769397745', '_blank');
+  };
+
+  const handleLinkedInClick = () => {
+    window.open('https://www.linkedin.com/in/charmi-shah-leaarner/', '_blank');
   };
 
   const handleEmailClick = () => {
@@ -28,7 +28,7 @@ export const Contact = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-4 gap-6">
           <Card className="bg-gradient-to-br from-blue-50 to-blue-100 border-0 shadow-lg hover:shadow-xl transition-all duration-300">
             <CardHeader className="text-center">
               <div className="text-4xl mb-2">📞</div>
@@ -36,12 +36,9 @@ export const Contact = () => {
             </CardHeader>
             <CardContent className="text-center">
               <p className="text-gray-600 mb-4">Connect via Call for immediate support</p>
-              <Button 
-                onClick={handlePhoneClick}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white"
-              >
+              <div className="w-full bg-blue-600 text-white px-4 py-2 rounded font-medium">
                 +91 97693 97745
-              </Button>
+              </div>
             </CardContent>
           </Card>
           
@@ -57,6 +54,22 @@ export const Contact = () => {
                 className="w-full bg-green-600 hover:bg-green-700 text-white"
               >
                 Chat on WhatsApp
+              </Button>
+            </CardContent>
+          </Card>
+          
+          <Card className="bg-gradient-to-br from-blue-50 to-indigo-100 border-0 shadow-lg hover:shadow-xl transition-all duration-300">
+            <CardHeader className="text-center">
+              <div className="text-4xl mb-2">💼</div>
+              <CardTitle className="text-lg text-gray-900">LinkedIn</CardTitle>
+            </CardHeader>
+            <CardContent className="text-center">
+              <p className="text-gray-600 mb-4">Connect professionally</p>
+              <Button 
+                onClick={handleLinkedInClick}
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+              >
+                Connect on LinkedIn
               </Button>
             </CardContent>
           </Card>

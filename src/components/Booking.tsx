@@ -15,6 +15,14 @@ export const Booking = () => {
             Book Your Session
           </h2>
           <div className="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
+          <div className="bg-gradient-to-r from-blue-100 to-green-100 p-4 rounded-lg mb-6">
+            <p className="text-lg font-semibold text-green-800 mb-2">
+              🎁 Free 15-Minute Consultation
+            </p>
+            <p className="text-gray-700">
+              I offer a complimentary 15-minute counselling session to help you start your healing journey and determine if we're a good fit.
+            </p>
+          </div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Ready to start your journey? Schedule a 60-minute session that works for your schedule
           </p>
@@ -34,7 +42,7 @@ export const Booking = () => {
                 size="lg"
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
               >
-                📅 Book 60min Session
+                📅 Book 60 Minutes Session
               </Button>
             </div>
             
