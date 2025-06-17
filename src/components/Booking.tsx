@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -7,32 +8,33 @@ export const Booking = () => {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/50" id="booking">
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50 to-teal-50" id="booking">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Book Your Session
           </h2>
+          <div className="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ready to start your journey? Schedule a 45-minute session that works for your schedule
+            Ready to start your journey? Schedule a 60-minute session that works for your schedule
           </p>
         </div>
         
-        <Card className="bg-gradient-to-br from-blue-50 to-green-50 border-0 shadow-xl">
+        <Card className="bg-white/80 backdrop-blur-sm border-0 shadow-xl">
           <CardHeader className="text-center">
-            <CardTitle className="text-2xl text-gray-900">Schedule Appointment</CardTitle>
+            <CardTitle className="text-2xl text-green-800">Schedule Appointment</CardTitle>
           </CardHeader>
           <CardContent className="text-center">
             <div className="mb-6">
               <p className="text-gray-600 mb-4">
-                Click below to view available time slots and book your 45-minute session through Calendly
+                Click below to view available time slots and book your 60-minute session through Calendly
               </p>
               <Button 
                 onClick={handleCalendlyClick}
                 size="lg"
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
               >
-                📅 Book 45min Session
+                📅 Book 60min Session
               </Button>
             </div>
             

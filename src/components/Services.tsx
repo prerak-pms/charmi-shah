@@ -26,12 +26,13 @@ export const Services = () => {
   ];
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8" id="services">
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-cyan-50" id="services">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             My Services
           </h2>
+          <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Offering a range of therapeutic services designed to support your mental health and personal growth
           </p>

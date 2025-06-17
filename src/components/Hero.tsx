@@ -7,7 +7,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8">
+    <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-yellow-50 to-orange-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <div className="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden shadow-xl">

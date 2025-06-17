@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export const Contact = () => {
   const handlePhoneClick = () => {
-    window.open('https://wa.me/919769397745', '_blank');
+    window.open('tel:+919769397745', '_self');
   };
 
   const handleWhatsAppClick = () => {
@@ -16,14 +16,15 @@ export const Contact = () => {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/50" id="contact">
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50 to-red-50" id="contact">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Get in Touch
           </h2>
+          <div className="w-24 h-1 bg-orange-500 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ready to start your healing journey? Reach out to me directly via WhatsApp
+            Ready to start your healing journey? Reach out to me directly
           </p>
         </div>
         
@@ -78,7 +79,7 @@ export const Contact = () => {
         </div>
         
         <div className="mt-8">
-          <Card className="bg-gradient-to-r from-blue-50 to-green-50 border-0 shadow-lg">
+          <Card className="bg-gradient-to-r from-orange-50 to-red-50 border-0 shadow-lg">
             <CardContent className="p-6">
               <div className="text-center mb-4">
                 <h3 className="font-semibold text-lg mb-2">Office Hours</h3>
@@ -90,7 +91,7 @@ export const Contact = () => {
                 </div>
                 <div className="bg-white/70 p-4 rounded-lg">
                   <h4 className="font-medium text-gray-900 mb-2">Weekend</h4>
-                  <p className="text-gray-600">Saturday<br />10:00 AM - 4:00 PM</p>
+                  <p className="text-gray-600">Saturday<br />10:00 AM - 6:00 PM</p>
                 </div>
               </div>
               <div className="text-center mt-4">

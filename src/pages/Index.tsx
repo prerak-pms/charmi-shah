@@ -1,5 +1,7 @@
 
+import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
+import { AboutMe } from "@/components/AboutMe";
 import { Services } from "@/components/Services";
 import { Specializations } from "@/components/Specializations";
 import { TherapeuticExpertise } from "@/components/TherapeuticExpertise";
@@ -11,8 +13,10 @@ import { Contact } from "@/components/Contact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
+    <div className="min-h-screen">
+      <Header />
       <Hero />
+      <AboutMe />
       <Services />
       <Specializations />
       <TherapeuticExpertise />
